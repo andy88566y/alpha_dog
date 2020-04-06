@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
-class AlphaDog
-  def self.hi
-    puts 'Arf, I am AlphaDog.'
-  end
+require 'alpha_dog/translator'
 
-  def self.greetings
-    puts 'woof, woof.'
+class AlphaDog
+  def self.hi(language = 'chinese')
+    translator = Translator.new(language)
+    translator.hi
   end
 end
