@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'alpha_dog'
+puts AlphaDog.hi(ARGV[0])
