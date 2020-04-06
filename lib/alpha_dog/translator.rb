@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module AlphaDog
+class AlphaDog
   class Translator
     def initialize(language)
       @language = language
