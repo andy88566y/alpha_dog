@@ -12,6 +12,8 @@ class AlphaDog
         '汪汪！'
       when 'english'
         'Woof! Woof!'
+      when 'cat'
+        'Meow! Meow!'
       else
         'Arf! Arf!'
       end

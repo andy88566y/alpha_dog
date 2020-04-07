@@ -7,4 +7,6 @@ class AlphaDog
     translator = Translator.new(language)
     translator.hi
   end
+
+  def self.find_tickets_to_Tainan; end
 end
